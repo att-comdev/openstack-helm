@@ -2,170 +2,95 @@ apiVersion: v1
 entries:
   bootstrap:
   - apiVersion: v1
-    created: 2017-01-02T19:00:04.925273136-05:00
-    description: openstack-helm namespace bootstrap
-    digest: 249bd1b368305ba22af6b5be220af48eecdc2659dc3cd0313ef04f1e8cc4cf05
-    name: bootstrap
-    urls:
-    - http://127.0.0.1:8879/bootstrap-0.1.0.tgz
-    version: 0.1.0
-  - apiVersion: v1
     created: 2017-01-02T19:00:18.191819108-05:00
     description: openstack-helm namespace bootstrap
-    digest: sha256:d1abb4e31913dacc8c5ab736d915725a72452eba1cb3e51ee2f1a0e041771fa9
+    digest: sha256:49991ee28a1ac4eb59834b3d013497ac554bb87eb21af2f97773dafeaf5a761a
     name: bootstrap
     urls:
-    - http://127.0.0.1:8879/charts/bootstrap-0.1.0.tgz
+    - https://att-comdev.github.io/openstack-helm/charts/bootstrap-0.1.0.tgz
     version: 0.1.0
   ceph:
-  - created: 2017-01-02T19:00:04.926968993-05:00
-    description: A Helm chart for Kubernetes
-    digest: b9bd6d85fa87ff2d45b8aab602817c48e0bd9780b416f5db9de7fdb000e7a0d8
-    name: ceph
-    urls:
-    - http://127.0.0.1:8879/ceph-0.1.0.tgz
-    version: 0.1.0
   - created: 2017-01-02T19:00:16.085856062-05:00
     description: A Helm chart for Kubernetes
-    digest: sha256:37c755d13834bc32310c987860cb74009cddeb3357c60309af86f5b2b3eefc43
+    digest: sha256:14e28391d84ee5bd5026616e32ae68c5644b7c07da3f05e513706d62642d5a20
     name: ceph
     urls:
-    - http://127.0.0.1:8879/charts/ceph-0.1.0.tgz
+    - https://att-comdev.github.io/openstack-helm/charts/ceph-0.1.0.tgz
     version: 0.1.0
   common:
   - apiVersion: v1
-    created: 2017-01-02T19:00:04.927360081-05:00
-    description: A base chart for all openstack charts
-    digest: b20ff9718a17e18774cca75d594bf3473ba4d89cd653b074b8fba9e4920a3e37
-    name: common
-    urls:
-    - http://127.0.0.1:8879/common-0.1.0.tgz
-    version: 0.1.0
-  - apiVersion: v1
     created: 2017-01-02T19:00:13.970329411-05:00
     description: A base chart for all openstack charts
-    digest: sha256:b66b826e86f3197c754176bebd63924ccbd006e8752b4ba2bccfaf61b28e99be
+    digest: sha256:3d3337af367924322976b27b9413e42ad2ba056ac1d68e6b5ff2bdfe6522173a
     name: common
     urls:
-    - http://127.0.0.1:8879/charts/common-0.1.0.tgz
+    - https://att-comdev.github.io/openstack-helm/charts/common-0.1.0.tgz
     version: 0.1.0
   glance:
-  - created: 2017-01-02T19:00:04.92838704-05:00
-    description: A Helm chart for glance
-    digest: 9298f651c50d9201fcce560b50ef44b07eed92890018f35dcb11d25e02aae2c9
-    name: glance
-    urls:
-    - http://127.0.0.1:8879/glance-0.1.0.tgz
-    version: 0.1.0
   - created: 2017-01-02T19:00:29.407136351-05:00
     description: A Helm chart for glance
-    digest: sha256:28cbbcb7642cb87c1b3d58fef9d1ed3e1c71fd2beebbbadbcfb1b075a1642576
+    digest: sha256:da00301e038ee72c168de6d58ebd270ee537c2747514f6b8cfd96435ccdf266f
     name: glance
     urls:
-    - http://127.0.0.1:8879/charts/glance-0.1.0.tgz
+    - https://att-comdev.github.io/openstack-helm/charts/glance-0.1.0.tgz
     version: 0.1.0
   horizon:
-  - created: 2017-01-02T19:00:04.929343329-05:00
-    description: A Helm chart for horizon
-    digest: 314c03a03d536e47414d339899d5de8afb4e5989316db394275d218a1562840c
-    name: horizon
-    urls:
-    - http://127.0.0.1:8879/horizon-0.1.0.tgz
-    version: 0.1.0
   - created: 2017-01-02T19:00:31.445938588-05:00
     description: A Helm chart for horizon
-    digest: sha256:87a2401086eb7de8fd74c8220458224629039840aff77cec15dd46056ffe6356
+    digest: sha256:a1a54132fd4913eb6000fb431b0e9e281186d74edb814b63397368afa3018443
     name: horizon
     urls:
-    - http://127.0.0.1:8879/charts/horizon-0.1.0.tgz
+    - https://att-comdev.github.io/openstack-helm/charts/horizon-0.1.0.tgz
     version: 0.1.0
   keystone:
-  - created: 2017-01-02T19:00:04.930072537-05:00
-    description: A Helm chart for keystone
-    digest: 6ddbcb7eeca7003010d15db093a7afd930e32d7a6c0d97c3a35cbe22eaa687f9
-    name: keystone
-    urls:
-    - http://127.0.0.1:8879/keystone-0.1.0.tgz
-    version: 0.1.0
   - created: 2017-01-02T19:00:27.005916959-05:00
     description: A Helm chart for keystone
-    digest: sha256:7a8593d528d2515e49c1a831cf4a6c023e6190a71dc9514a382898cf2ac8a131
+    digest: sha256:a413ea393fb3d981d8a20ee83b29b6955cdeb194c37ac934919b609c06a7f4be
     name: keystone
     urls:
-    - http://127.0.0.1:8879/charts/keystone-0.1.0.tgz
+    - https://att-comdev.github.io/openstack-helm/charts/keystone-0.1.0.tgz
     version: 0.1.0
   maas:
   - created: 2017-01-02T19:22:32.57431862-05:00
     description: Chart to run MaaS
-    digest: sha256:c858c3a6f069d58906c78b4e5c88d78d41a1c4b6c3b67d64278502fef1ee6a5c
+    digest: sha256:34f11eb41ab0cf11f62ee6c7bec2f20b570f26dc52b9019fcc5a0bb084b6ba2e
     name: maas
     urls:
-    - http://127.0.0.1:8879/charts/maas-0.1.0.tgz
+    - https://att-comdev.github.io/openstack-helm/charts/maas-0.1.0.tgz
     version: 0.1.0
   mariadb:
   - apiVersion: v1
-    created: 2017-01-02T19:00:04.931050005-05:00
-    description: A helm chart for mariadb
-    digest: e0989795834e024b5d908bdb63fff8f58b85120ced1984634764a5cd8dd657e3
-    name: mariadb
-    urls:
-    - http://127.0.0.1:8879/mariadb-0.1.0.tgz
-    version: 0.1.0
-  - apiVersion: v1
     created: 2017-01-02T19:00:20.45692807-05:00
     description: A helm chart for mariadb
-    digest: sha256:c4a6a9a4924c7362e039bcd2c970a14aafdc5bfe7abe76d0ee6d6bdb0f73d16c
+    digest: sha256:7248adf8544dc82b7c2a9ff4f4ef4337311cc33b0c60073812e93cd237fa3f6e
     name: mariadb
     urls:
-    - http://127.0.0.1:8879/charts/mariadb-0.1.0.tgz
+    - https://att-comdev.github.io/openstack-helm/charts/mariadb-0.1.0.tgz
     version: 0.1.0
   memcached:
-  - created: 2017-01-02T19:00:04.931755814-05:00
-    description: Chart for memcached
-    digest: f885b571bcc3315de3fdae2c49634f474210cd204b97bd66df494b9679f1fccc
-    name: memcached
-    urls:
-    - http://127.0.0.1:8879/memcached-0.1.0.tgz
-    version: 0.1.0
   - created: 2017-01-02T19:00:24.848888768-05:00
     description: Chart for memcached
-    digest: sha256:7e929cd9280a526458a9cdd943d8b5b210da9a5123a9b56461b34c07b1b1ec90
+    digest: sha256:d07279052c7c69cba53e17d64e535052ed451ef5b2cf6890c457dad205afbd43
     name: memcached
     urls:
-    - http://127.0.0.1:8879/charts/memcached-0.1.0.tgz
+    - https://att-comdev.github.io/openstack-helm/charts/memcached-0.1.0.tgz
     version: 0.1.0
   openstack:
   - apiVersion: v1
-    created: 2017-01-02T19:00:04.934347438-05:00
-    description: A Helm chart for Kubernetes
-    digest: 02c4f34efd7864d00c5be2a1c527269c8ce62cb5a2f2a8fa7ea42d0e93cb59c0
-    name: openstack
-    urls:
-    - http://127.0.0.1:8879/openstack-0.1.0.tgz
-    version: 0.1.0
-  - apiVersion: v1
     created: 2017-01-02T19:00:33.562340911-05:00
     description: A Helm chart for Kubernetes
-    digest: sha256:0b799bb5d8ca7148d9fd40805278920675fa6b6fe6a8d48c6ac729d5098e8410
+    digest: sha256:c837753755bd0003894cb96c697833afee1de11f0959ae1bed513175093ec33f
     name: openstack
     urls:
-    - http://127.0.0.1:8879/charts/openstack-0.1.0.tgz
+    - https://att-comdev.github.io/openstack-helm/charts/openstack-0.1.0.tgz
     version: 0.1.0
   rabbitmq:
   - apiVersion: v1
-    created: 2017-01-02T19:00:04.935245816-05:00
-    description: A Helm chart for Kubernetes
-    digest: 2991f29b3f3a9b3d91898b74223f16de96afa3b3899c5aaaf58e26d714c6ecc1
-    name: rabbitmq
-    urls:
-    - http://127.0.0.1:8879/rabbitmq-0.1.0.tgz
-    version: 0.1.0
-  - apiVersion: v1
     created: 2017-01-02T19:00:22.688283196-05:00
     description: A Helm chart for Kubernetes
-    digest: sha256:cd20380063881836aaa4e77d9ad44bc8c041b2f9a53268bdc3e9a2e20bd090b3
+    digest: sha256:85a027b1dacc0bac8ec7bf07f8d1d4a991068df11fcc7f85fda46a40642698fe
     name: rabbitmq
     urls:
-    - http://127.0.0.1:8879/charts/rabbitmq-0.1.0.tgz
+    - https://att-comdev.github.io/openstack-helm/charts/rabbitmq-0.1.0.tgz
     version: 0.1.0
 generated: 2017-01-02T19:00:04.924360387-05:00
