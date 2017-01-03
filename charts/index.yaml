@@ -94,6 +94,14 @@ entries:
     urls:
     - http://127.0.0.1:8879/charts/keystone-0.1.0.tgz
     version: 0.1.0
+  maas:
+  - created: 2017-01-02T19:22:32.57431862-05:00
+    description: Chart to run MaaS
+    digest: sha256:c858c3a6f069d58906c78b4e5c88d78d41a1c4b6c3b67d64278502fef1ee6a5c
+    name: maas
+    urls:
+    - http://127.0.0.1:8879/charts/maas-0.1.0.tgz
+    version: 0.1.0
   mariadb:
   - apiVersion: v1
     created: 2017-01-02T19:00:04.931050005-05:00
