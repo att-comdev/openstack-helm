@@ -1,14 +1,9 @@
-<!--  
-      Thanks for contributing to OpenStack-Helm!  Please be thorough
-      when filling out your pull request. If the purpose for your pull
-      request is not clear, we may close your pull request and ask you
-      to resubmit.
--->
+<!-- Warning Disclaimer -->
 
-**What is the purpose of this pull request?**:
+**WARNING:** THIS REPOSITORY IS NO LONGER MAINTAINED!!
 
-**What issue does this pull request address?**: Fixes #
+This project has moved under Openstack. For pull requests and 
+patch sets, please use following URL:
+https://review.openstack.org/#/q/projects:openstack/openstack-helm.
 
-**Notes for reviewers to consider**:
-
-**Specific reviewers for pull request**:
+Be advised the no code will no longer be merged into this repository.
